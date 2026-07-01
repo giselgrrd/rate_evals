@@ -4,31 +4,10 @@ A comprehensive evaluation pipeline for Vision-Language Models on medical imagin
 
 ## Installation
 
-### From Source (Recommended for Development)
-
-Clone and install with uv:
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-export PATH="$HOME/.local/bin:$PATH"
-uv sync
-uv add flash-attn --no-build-isolation
-source .venv/bin/activate
-```
-
 ### Setting up Console Scripts
 
-After installation, the console scripts (`rate-extract`, `rate-evaluate`) are installed in `~/.local/bin/`. If you get "command not found" errors, you have two options:
 
-1. **Add ~/.local/bin to PATH** (recommended):
-   ```bash
-   echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-   source ~/.bashrc
-   # or for zsh users:
-   echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
-   source ~/.zshrc
-   ```
-
-2. **Use the module format** (alternative):
+**Use the module format**:
    ```bash
    python -m rate_eval.cli.extract [OPTIONS]
    python -m rate_eval.cli.evaluate [OPTIONS]
