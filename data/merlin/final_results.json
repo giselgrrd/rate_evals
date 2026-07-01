@@ -1,0 +1,17 @@
+{
+  "USER_NII": {
+    "qa_results": {
+      "findings": [
+        {
+          "abscess": "no",
+          "enlarged lymph nodes": "no",
+          "free fluid": "no",
+          "mass": "no",
+          "pneumonia": "no",
+          "fracture": "no",
+          "lesion": "no"
+        }
+      ]
+    }
+  }
+}

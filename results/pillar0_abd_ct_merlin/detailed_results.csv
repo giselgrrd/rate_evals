@@ -1,0 +1,8 @@
+question,model_name,pool_op,accuracy,precision,recall,f1,auc,specificity,num_samples,num_positive,num_negative
+abscess,auto,mean,1.0,0.0,0.0,0.0,0.0,1.0,1,0,1
+enlarged lymph nodes,auto,mean,1.0,0.0,0.0,0.0,0.0,1.0,1,0,1
+fracture,auto,mean,1.0,0.0,0.0,0.0,0.0,1.0,1,0,1
+free fluid,auto,mean,1.0,0.0,0.0,0.0,0.0,1.0,1,0,1
+lesion,auto,mean,1.0,0.0,0.0,0.0,0.0,1.0,1,0,1
+mass,auto,mean,1.0,0.0,0.0,0.0,0.0,1.0,1,0,1
+pneumonia,auto,mean,1.0,0.0,0.0,0.0,0.0,1.0,1,0,1
